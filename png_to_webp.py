@@ -55,8 +55,8 @@ def batch_convert_pngs(input_folder, output_folder, quality=80):
             convert_png_to_webp(input_png, output_webp, quality)
 
 if __name__ == "__main__":
-    input_folder = "./clothing/pants"  # Replace with your input folder
-    output_folder = "./clothing/pantsnew" # Replace with your output folder
+    input_folder = "./clothing/before/glove"  # Replace with your input folder
+    output_folder = "./clothing/glove" # Replace with your output folder
     conversion_quality = 80  # Adjust as needed
 
     batch_convert_pngs(input_folder, output_folder, conversion_quality)
